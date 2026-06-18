@@ -39,7 +39,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://api.citywala.com/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://citywala-backend.onrender.com/api",
   withCredentials: true, // cookies enabled
 });
 
